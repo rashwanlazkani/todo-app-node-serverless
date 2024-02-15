@@ -5,6 +5,10 @@ provider:
   name: aws
   runtime: nodejs14.x
   region: eu-north-1
+  environment:
+    ENV_ONE: '123'
+    ENV_TWO: '456'
+    ENV_THREE: '789'
   iamRoleStatements:
     - Effect: Allow
       Action:
